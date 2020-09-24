@@ -1,0 +1,93 @@
+.consult {
+    background: url('../img/consult/bg.png') center (center / cover) no-repeat;
+    padding: 100px 0 92px 0;
+
+    @media (max-width: 991px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 575px) {
+        padding: 40px 0;
+    }
+
+
+    &__header {
+        width: 87%;
+        color: #ffffff;
+        font-size: 36px;
+
+        line-height: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @media (max-width: 991px) {
+            font-size: 27px;
+        }
+
+        @media (max-width: 767px) {
+            @include centered-element;
+            text-align: center;
+        }
+
+        @media (max-width: 575px) {
+            // width: 100%;
+            font-size: 17px;
+            line-height: 22px;
+        }
+
+    }
+
+    &__desc {
+        margin-top: 80px;
+        width: 44%;
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 500;
+
+        @media (max-width: 991px) {
+            font-size: 16px;
+            margin-top: 45px;
+        }
+
+        @media (max-width: 767px) {
+            @include centered-element;
+            text-align: center;
+            width: 78%;
+        }
+
+        @media (max-width: 575px) {
+            width: 87%;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+    }
+
+    &__feed-form {
+        margin-top: 36px;
+
+        // @media (max-width: 767px) {
+        //     align-items: center;
+        // }
+        
+
+        // input {
+        //     @media (max-width: 575px) {
+        //         width: 250px;
+        //         font-size: 13px;
+        //     }
+        // }
+
+        // &__button {
+        //     @media (max-width: 575px) {
+        //         width: 250px;
+        //         font-size: 14px;
+        //         line-height: 14px;
+        //     }
+        // }
+
+        
+    }
+
+
+}

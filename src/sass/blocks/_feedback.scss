@@ -1,0 +1,9 @@
+.feedback {
+    &__wrapper {
+        padding: $feedback-margins-lg + 20px 0;
+
+        @media (max-width: 575px) {
+            padding: $feedback-margins-xs + 20px 0;
+        }
+    }
+}

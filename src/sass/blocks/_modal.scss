@@ -1,0 +1,63 @@
+.overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, .56);
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    width: 380px;
+    display: none;
+    background-color: #f2f2f2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 38px;
+
+    @media (max-width: 575px) {
+        width: 290px;
+    }
+
+    &__close {
+        position: absolute;
+        cursor: pointer;
+        right: -42px;
+        top: -20px;
+        font-size: 39px;
+        color: $main-color;
+
+        @media (max-width: 575px) {
+            right: 6px;
+            top: -13px;
+        }
+    }
+
+    &__title {
+        color: #0d0d0d;
+        font-size: 19px;
+        line-height: 19px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__description {
+        color: #0d0d0d;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 11px;
+    }
+
+    &__feed-form {
+        margin-top: 25px;
+        input {
+            margin-bottom: 15px;
+        }
+    }
+
+
+}

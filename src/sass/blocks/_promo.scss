@@ -1,0 +1,134 @@
+.promo {
+    padding: 21px 0 92px 0;
+    background: url('../img/promo/bg.png') center (center/cover) no-repeat;
+    min-height: 650px;
+
+    @media (max-width: 575px) {
+        padding-bottom: 45px;
+        min-height: unset;
+    }
+
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 91px;
+
+        @media (max-width: 767px) {
+            align-items: center;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 575px) {
+            margin-top: 25px;
+        } 
+
+        
+    }
+
+    &__header {
+        color: #ffffff;
+        font-size: 42px;
+        line-height: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+
+        @media (max-width: 767px) {
+           font-size: 36px;
+        }
+
+        @media (max-width: 575px) {
+            text-align: center;
+            font-size: 24px;
+        } 
+    }
+
+    &__subheader {
+        margin-top: 17px;
+        color: #ffffff;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 0;
+
+        @media (max-width: 767px) {
+           font-size: 21px;
+           line-height: 21px;
+        }
+
+        @media (max-width: 575px) {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 14px;
+        }  
+    }
+
+    &__icons {
+        margin-top: 66px;
+        width: 425px;
+        display: flex;
+        justify-content: flex-end;
+
+        @media (max-width: 767px) {
+            justify-content: space-between;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 575px) {
+            width: 90%;
+        }    
+    
+    }
+
+    &__icon{
+        text-align: center;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+        width: 108px;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 575px) {
+            font-size: 13px;
+            width: 25%;
+        }  
+    }
+
+    &__button {
+        width: 300px; 
+        height: 50px;
+        font-size: 16px;
+        margin-top: 67px;
+
+        @media (max-width: 575px) {
+            margin-top: 41px;
+            width: 250px;
+        }  
+    }
+
+    &__link {
+        margin-top: 18px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        a {
+            text-transform: uppercase;
+            text-decoration: underline;
+            color: #ffffff;
+
+        }
+    }
+
+    @media (max-width: 991px) {
+        background-position: 40%;
+    }
+
+}
